@@ -9,7 +9,7 @@ export default function Hero() {
           className="h-full w-full bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://images.unsplash.com/photo-1507679799987-c73779587ccf')",
+              "url('https://images.unsplash.com/photo-1513258496099-48168024aec0')",
             opacity: 0.1,
           }}
         />
@@ -23,11 +23,11 @@ export default function Hero() {
           className="max-w-3xl"
         >
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-            Transform Your Business
+            Learn Big, 5 Minutes at a Time
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Join the waitlist for the next generation of business intelligence
-            tools. Be the first to experience innovation that drives results.
+            Master any subject through daily bite-sized lessons. Transform complex courses 
+            into easy-to-digest 2-5 minute reads. Learn consistently, without the overwhelm.
           </p>
           <Button
             size="lg"
@@ -37,7 +37,7 @@ export default function Hero() {
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Join Waitlist
+            Start Learning Smarter
           </Button>
         </motion.div>
       </div>

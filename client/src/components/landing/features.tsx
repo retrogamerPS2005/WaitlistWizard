@@ -1,28 +1,28 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Rocket, LineChart, Shield } from "lucide-react";
+import { Clock, Brain, Sparkles } from "lucide-react";
 
 const features = [
   {
-    title: "Lightning Fast Analytics",
+    title: "Bite-sized Learning",
     description:
-      "Process millions of data points in seconds with our advanced analytics engine.",
-    icon: Rocket,
-    image: "https://images.unsplash.com/photo-1506729623306-b5a934d88b53",
+      "Transform complex subjects into 2-5 minute daily reads. Perfect for busy schedules and better retention.",
+    icon: Clock,
+    image: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
   },
   {
-    title: "Predictive Insights",
+    title: "Consistent Progress",
     description:
-      "Leverage AI-powered predictions to stay ahead of market trends and opportunities.",
-    icon: LineChart,
-    image: "https://images.unsplash.com/photo-1559273514-468728ffc16c",
+      "Build lasting knowledge through daily micro-lessons. Small steps lead to big achievements.",
+    icon: Brain,
+    image: "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06",
   },
   {
-    title: "Enterprise Security",
+    title: "Smart Learning Path",
     description:
-      "Bank-grade security ensures your data is protected at every level.",
-    icon: Shield,
-    image: "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4",
+      "AI-curated content adapts to your pace and learning style for maximum engagement.",
+    icon: Sparkles,
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
   },
 ];
 
@@ -37,10 +37,10 @@ export default function Features() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
+          <h2 className="text-4xl font-bold mb-4">Why Microlearning Works</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Our platform combines cutting-edge technology with intuitive design to
-            deliver unparalleled business insights.
+            Learn more effectively with our scientifically-proven approach to
+            continuous learning through small, manageable chunks.
           </p>
         </motion.div>
 

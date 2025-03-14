@@ -29,8 +29,8 @@ export default function WaitlistForm() {
     onSuccess: () => {
       setSubmitted(true);
       toast({
-        title: "Success!",
-        description: "You've been added to the waitlist.",
+        title: "Welcome aboard!",
+        description: "Get ready for smarter, bite-sized learning.",
       });
     },
     onError: (error: Error) => {
@@ -56,9 +56,10 @@ export default function WaitlistForm() {
           viewport={{ once: true }}
           className="max-w-md mx-auto text-center"
         >
-          <h2 className="text-4xl font-bold mb-4">Join the Waitlist</h2>
+          <h2 className="text-4xl font-bold mb-4">Start Your Learning Journey</h2>
           <p className="text-muted-foreground mb-8">
-            Be among the first to experience the future of business intelligence.
+            Join our waitlist to be among the first to experience a smarter way to learn.
+            Get exclusive early access and special founding member benefits.
           </p>
 
           {submitted ? (
@@ -67,9 +68,9 @@ export default function WaitlistForm() {
               animate={{ opacity: 1, scale: 1 }}
               className="p-6 bg-primary/10 rounded-lg"
             >
-              <h3 className="text-xl font-semibold mb-2">Thank you!</h3>
+              <h3 className="text-xl font-semibold mb-2">You're In!</h3>
               <p className="text-muted-foreground">
-                We'll notify you when we launch.
+                We'll notify you when we launch. Get ready to transform your learning journey!
               </p>
             </motion.div>
           ) : (
@@ -99,7 +100,7 @@ export default function WaitlistForm() {
                   className="w-full"
                   disabled={mutation.isPending}
                 >
-                  {mutation.isPending ? "Joining..." : "Join Waitlist"}
+                  {mutation.isPending ? "Joining..." : "Join the Waitlist"}
                 </Button>
               </form>
             </Form>
